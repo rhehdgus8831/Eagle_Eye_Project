@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+
+  .AppHeader {
+    background-color: #282c34;
+    padding: 10px;
+    color: white;
+}
+
+  .AppMain {
+    flex-grow: 1;
+
+}
+}
