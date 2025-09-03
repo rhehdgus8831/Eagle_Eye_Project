@@ -28,7 +28,7 @@ spring:
     database-platform: org.hibernate.dialect.MariaDB106Dialect
     hibernate:
       # ddl
-      ddl-auto: create
+      ddl-auto: update
     properties:
       hibernate:
         format_sql: true # SQL log
@@ -40,3 +40,7 @@ logging:
     root: info
     com.study.event: debug
     org.hibernate.SQL: debug
+
+game:
+  border:
+    latitude: 38.0 # 경계선은 북위 38.0도선이다.
